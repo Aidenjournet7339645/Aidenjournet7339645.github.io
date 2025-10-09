@@ -1,3 +1,5 @@
+const { createContext } = require("react");
+
 $(function () {
   // initialize canvas and context when able to
   canvas = document.getElementById("canvas");
@@ -40,6 +42,12 @@ $(function () {
 
 
     // TODO 3 - Create Collectables
+    createCollectables("steve", 380, 670);
+    //createCollectables("max", 500, 400);
+    //createCollectables("diamond",600,700);
+    //createCollectables("grace", 400, 200);
+    //createCollectables("kennedi",200 , 300);
+     
 
 
 
